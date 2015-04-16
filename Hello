@@ -1,9 +1,13 @@
 #include<stdio.h>
 int main()
 {
-    int a;
+    int i,a;
     scanf("%d",&a);
     printf("Hello World!");
-    printf("\n");
+    for(i=0;i<5;i++)
+    {
+        a=i;
+    }
+    
     return 0;
 }
