@@ -8,6 +8,5 @@ int main()
     {
         a=i;
     }
-    delete;
     return 0;
 }
